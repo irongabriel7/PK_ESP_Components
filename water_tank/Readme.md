@@ -145,7 +145,7 @@ State is broadcast to all authorized clients.
 ## 📁 Project Structure
 
 ```
-/src
+/water_tank
   └ water_tank.ino
 /android
   └ secure app implementation
@@ -155,7 +155,7 @@ State is broadcast to all authorized clients.
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/<yourname>/water-tank-monitor
+git clone https://github.com/irongabriel7/water-tank
 ```
 
 2. Open `.ino` in Arduino IDE.
