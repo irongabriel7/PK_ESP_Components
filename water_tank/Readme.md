@@ -213,4 +213,4 @@ If client sends invalid auth → ESP drops it automatically.
 
 ## 📜 License
 
-MIT License. Free for educational, commercial, and private use.
+Free for educational, and private use.
