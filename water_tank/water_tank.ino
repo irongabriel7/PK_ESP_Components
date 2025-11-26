@@ -29,9 +29,10 @@ WebSocketsServer webSocket = WebSocketsServer(81);
 // -------------------- SECURITY --------------------
 
 // Shared secret (must match Android AppConfig.SECRET_KEY)
-const char* SECRET_KEY = "PK_SEC_23A9F1D44B7C27EE4A78219F4C55E7C1";
+const char* SECRET_KEY = "PK_SEC_*******"; //Sample Value: PK_SEC_23A9F1D44B7C27EE4A78219F4C55E7C1 Match this value in App as well
 
-// AES-64 Key (16 bytes) – must match AppConfig.AES_KEY
+// AES-128 Key (16 bytes) – must match AppConfig.AES_KEY 
+//This is also SAMPLE KEY, you can create your own
 byte aes_key[16] = {
   0x9F,0x12,0xA8,0xC3,0x44,0x77,0x19,0xB2,
   0x8D,0x66,0x3E,0x19,0x74,0xAA,0xC1,0x08
